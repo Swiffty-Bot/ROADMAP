@@ -19,7 +19,7 @@ Package to create plugins with commands and events
 
 ### [Base Bot Structure](https://github.com/Swiffty-Bot/Base-Bot)
 The structure of the base bot that will have customisable optiosn for the token and plugins dir path. The bot will also load events and commands as wel las regestering the commands. Bot includes basic function to run commands and events from the plugins.
-- [X] Class extend of [discord.js client](https://discord.js.org/docs/packages/discord.js/14.14.1/Client:Class) with tokeen and plugin inputs
+- [X] Class extend of [discord.js client](https://discord.js.org/docs/packages/discord.js/14.14.1/Client:Class) with token and plugin inputs
 - [X] Start function to make the bot login
 - [X] Load plugins from array store in plugin file
 - [X] Register events from plugins and bind them to the client events
