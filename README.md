@@ -47,7 +47,7 @@ Dashboard to build & customise your bot. Create new bots, view bots stats, edit 
 - [ ] Change bot intents stored in the main index.ts file of the bot
 - [ ] Send console logs & info to frontend "termianl"
 - [ ] Reveiwer page to review plugin requests to the registart
-- [ ] Accept/deny plugin system see more at [plugin registry](./README.md/#Plugin-Registry)
+- [ ] Accept/deny plugin system see more at [plugin registry](https://github.com/Swiffty-Bot/Plugin-Registry)
 #### Frontend
 - [ ] Enitial landing page
 - [ ] Dashboard page (display stats about the bot, name, profile pic, intents, enabled plugins)
@@ -57,3 +57,11 @@ Dashboard to build & customise your bot. Create new bots, view bots stats, edit 
 
 
 ### [Plugin Registry](https://github.com/Swiffty-Bot/Plugin-Registry)
+Registry for all the public plugins.
+- [ ] Connect to database server (not decided yet)
+- [ ] Simple api with express (may change this to use a rust framework not sure)
+- [ ] Route to submit a publish request (inputs: name, description, github repo)
+- [ ] Route to submit a publish (requires reviewer token or something idk)
+- [ ] Route to delete a plugin (requires author token)
+- [ ] Route to get all info about a plugin
+- [ ] Ratelimiter
