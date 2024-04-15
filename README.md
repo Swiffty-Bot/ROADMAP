@@ -3,7 +3,7 @@
 
 ### [Plugin Package](https://github.com/Swiffty-Bot/Plugin-Builder)
 Package to create plugins with commands and events
-- [ ] Usage Docs
+- [X] Usage Docs
 - [X] Create new plugin
 - [X] Added name & description feilds
 - [X] Ability to add command
