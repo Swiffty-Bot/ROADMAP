@@ -15,8 +15,8 @@ The swiffty CLI helps to create plugins with ease. Use a few simple commands to 
 ### Build Command
 - [X] Check manifest.toml options for correct plugin options
 - [X] Check git repo for uncommited changes
-- [ ] Read .gitignore to find ignored directories
-- [ ] Create /target
+- [X] Read .gitignore to find ignored directories
+- [X] Create /target
 - [ ] Check for existing release in /target
 - [ ] If existing plugin version in /target, delete it
 - [ ] Zip files and add it to /target in format {name}@{version}
